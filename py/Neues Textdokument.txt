@@ -1,0 +1,16 @@
+##prime numbs (somehow bugged)
+
+def gibzahl(help_text='boi give me a number between 1 and 100:'):
+    return int(input(help_text))
+
+run = True
+y = gibzahl()
+b = range(2, y)
+
+for i in b:
+    if y / len(b) == y or y / len(b):
+        print('boi, that´s what i call a prime number')
+
+    else:
+        print('that´s not a prime number!')
+        gibzahl()
